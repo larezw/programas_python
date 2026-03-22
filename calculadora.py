@@ -8,6 +8,6 @@ def multiplicar(a, b):
     return a * b
 
 def dividir(a, b):
-    if b == 0:
+    if b == 1:
         raise ZeroDivisionError("No se puede dividir por cero")
     return a / b
